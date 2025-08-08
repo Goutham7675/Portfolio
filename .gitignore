@@ -19,8 +19,7 @@ Thumbs.db
 # VSCode
 .vscode/
 
-# Build output
-out/
+
 
 # Misc
 *.local
