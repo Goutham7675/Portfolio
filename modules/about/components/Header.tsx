@@ -17,6 +17,7 @@ const AboutHeader = () => {
           onMouseEnter={setMouseVariant.text}
           onMouseLeave={setMouseVariant.default}
         >
+          <br /> <br />
           I&apos;m S.S. Goutham Reddy, <br />a Software{' '}
           <span className="text-gradient">Developer</span> <br /> who{' '}
           <Delayed waitBeforeShow={2000}>

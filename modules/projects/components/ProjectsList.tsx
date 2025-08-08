@@ -4,9 +4,9 @@ import Project from "./Project";
 
 const ProjectsList = () => {
   return (
-    <section className="mt-36 flex w-screen justify-center md:mt-0" id="projects">
+    <section className="mt-32 flex w-screen justify-center md:mt-0" id="projects">
       <ScrollOpacity>
-        <div className="grid grid-cols-1 place-items-center gap-5 md:grid-cols-2 md:gap-10 xl:grid-cols-3">
+        <div className="grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 md:gap-10 xl:grid-cols-3">
           <Project
             title="GitHub User Search"
             description="Built a GitHub User Search web app enabling users to search and view GitHub profiles dynamically. Utilized debounced search functionality, reducing unnecessary API calls by ~60%, enhancing performance and efficiency."

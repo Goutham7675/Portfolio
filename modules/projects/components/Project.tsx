@@ -10,7 +10,7 @@ interface Props {
 const Project = ({ title, demo, description, github, scrollTo }: Props) => {
   return (
     <div
-      className={`flex h-max w-60 flex-col rounded-2xl p-4 md:h-52 lg:h-64 lg:w-72 lg:p-6 ${
+      className={`flex h-max w-72 flex-col rounded-3xl p-5 md:h-64 lg:h-[21rem] lg:w-96 lg:p-10 ${
         (typeof window !== 'undefined' && document.body.classList.contains('light'))
           ? 'bg-[#f4f6fa] text-gray-900'
           : 'bg-[#1f1f1f] text-white'
@@ -18,14 +18,14 @@ const Project = ({ title, demo, description, github, scrollTo }: Props) => {
       id={scrollTo ? "projects" : undefined}
     >
 
-      <p className={`text-base lg:text-lg font-bold truncate ${
+      <p className={`text-lg lg:text-2xl font-bold ${
         (typeof window !== 'undefined' && document.body.classList.contains('light'))
           ? 'text-gray-900'
           : 'text-white'
       }`}>{title}</p>
-      <hr className="my-2 border-t border-zinc-500 w-full" />
+      <hr className="my-4 border-t border-zinc-500 w-full" />
 
-      <p className={`flex-1 font-sans text-xs lg:text-sm leading-tight line-clamp-5 ${
+      <p className={`flex-1 font-sans text-sm lg:text-base ${
         (typeof window !== 'undefined' && document.body.classList.contains('light'))
           ? 'text-gray-700'
           : 'text-zinc-400'
@@ -33,7 +33,7 @@ const Project = ({ title, demo, description, github, scrollTo }: Props) => {
         {description}
       </p>
 
-  <div className="flex gap-2 mt-4">
+      <div className="flex gap-3 mt-6">
         {github && (
           <a
             className="project-btn"
