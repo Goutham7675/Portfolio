@@ -55,10 +55,11 @@ const Hero = () => {
 
   return (
     <section
-      className={`relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden ${
+      className={`relative flex h-screen w-full flex-col items-center justify-center overflow-hidden ${
         theme === "dark" ? "dark" : "light"
       }`}
       id="hero"
+      style={{ maxWidth: '100vw' }}
     >
       <motion.div
         className={`absolute top-8 flex items-center gap-5 font-sans text-lg md:gap-10 ${
@@ -109,7 +110,7 @@ const Hero = () => {
         <div className="h-px bg-zinc-600 sm:w-36 md:w-48 lg:w-72" />
       </motion.div>
 
-      <div className="flex w-max flex-1 flex-col">
+      <div className="flex w-full max-w-5xl flex-1 flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 2xl:px-0">
         <div className="flex h-[55%] items-end">
           <Header />
         </div>
