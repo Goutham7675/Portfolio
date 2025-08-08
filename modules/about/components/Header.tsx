@@ -13,12 +13,13 @@ const AboutHeader = () => {
     <ScrollOpacity>
       <div className="flex flex-col items-center justify-center h-[60vh]">
         <motion.h1
-          className="header px-5 text-center"
+          className="font-bold text-center text-white leading-tight whitespace-normal break-words text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl max-w-4xl mx-auto px-4"
           onMouseEnter={setMouseVariant.text}
           onMouseLeave={setMouseVariant.default}
         >
-          I&apos;m S.S. Goutham Reddy, <br />a Software{' '}
-          <span className="text-gradient">Developer</span> <br /> who{' '}
+          I&apos;m S.S. Goutham Reddy,<br />a Software{' '}
+          <span className="text-gradient">Developer</span><br />
+          who{' '}
           <Delayed waitBeforeShow={2000}>
             <Type />
           </Delayed>
