@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "Run Next.js App",
+			"label": "Run Next.js Dev Server",
 			"command": "npm run dev",
 			"group": "build",
 			"isBackground": true,

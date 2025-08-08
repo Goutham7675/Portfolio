@@ -12,9 +12,7 @@ const Header = () => {
 
   return (
     <motion.h1
-      className={`font-bold text-white text-center leading-[1.05] whitespace-nowrap lg:whitespace-normal break-words 
-        text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[6vw] 2xl:text-[5vw] 
-        max-w-full overflow-x-auto px-2`}
+      className={`header text-center ${theme === 'dark' ? 'text-gray-100' : 'text-gray-900'}`}
       onMouseEnter={setMouseVariant.text}
       onMouseLeave={setMouseVariant.default}
       initial="hidden"
