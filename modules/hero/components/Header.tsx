@@ -21,6 +21,10 @@ const Header = () => {
         staggerChildren: 0.05,
       }}
     >
+      <br>  </br>
+      <br>  </br>
+      <br>  </br>
+      <br>  </br>
       <motion.span variants={wordAnimation}>Dev</motion.span>{' '}
       <motion.span variants={wordAnimation}>by choice.</motion.span>{' '}
       <motion.span variants={wordAnimation}>Engineer</motion.span>{' '}
