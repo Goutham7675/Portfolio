@@ -110,7 +110,7 @@ const Hero = () => {
         <div className="h-px bg-zinc-600 sm:w-36 md:w-48 lg:w-72" />
       </motion.div>
 
-      <div className="flex w-full max-w-5xl flex-1 flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 2xl:px-0">
+      <div className="flex w-full max-w-screen-2xl flex-1 flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 2xl:px-0 overflow-x-auto">
         <div className="flex h-[55%] items-end">
           <Header />
         </div>
