@@ -55,7 +55,7 @@ const Hero = () => {
 
   return (
     <section
-      className={`relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden ${
+      className={`relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden pt-24 md:pt-32 ${
         theme === "dark" ? "dark" : "light"
       }`}
       id="hero"
