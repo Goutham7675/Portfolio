@@ -42,7 +42,7 @@ const ProjectsList = () => {
             title="Personal Portfolio"
             description="Developed a personal portfolio website showcasing my projects, skills, and experience. The website is built with React and Tailwind CSS, featuring a responsive design and smooth animations."
             github="https://github.com/Goutham7675/personal-portfolio"
-            demo="https://goutham7675.github.io/personal-portfolio/"
+            demo="https://ssgouthamreddy.netlify.app/"
           />
         </div>
         <br />
@@ -54,7 +54,7 @@ const ProjectsList = () => {
           For more projects checkout my{" "}
           <a
             className="text-gradient hover:hover-gradient"
-            href="https://github.com/Goutham7675"
+            href="https://github.com/Goutham7675/Portfolio"
             target="_blank"
             rel="noreferrer"
           >
