@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Goutham Reddy | Software Developer</title>
+        <title>Goutham Reddy</title>
         <meta
           name="description"
           content="Portfolio site of Software Developer Goutham Reddy."
@@ -33,9 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div id="__font" className={ArticulatCF.className}>
-        <MotionConfig
-          transition={{ ease: "easeInOut", duration: 1 }}
-        >
+        <MotionConfig transition={{ ease: "easeInOut", duration: 1 }}>
           <ThemeProvider>
             <MouseVariantProvider>
               <Component {...pageProps} />

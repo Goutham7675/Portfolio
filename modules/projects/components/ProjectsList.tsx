@@ -4,7 +4,10 @@ import Project from "./Project";
 
 const ProjectsList = () => {
   return (
-    <section className="mt-32 flex w-screen justify-center md:mt-0" id="projects">
+    <section
+      className="mt-32 flex w-screen justify-center md:mt-0"
+      id="projects"
+    >
       <ScrollOpacity>
         <div className="grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 md:gap-10 xl:grid-cols-3">
           <Project
@@ -42,7 +45,7 @@ const ProjectsList = () => {
             title="Personal Portfolio"
             description="Developed a personal portfolio website showcasing my projects, skills, and experience. The website is built with React and Tailwind CSS, featuring a responsive design and smooth animations."
             github="https://github.com/Goutham7675/personal-portfolio"
-            demo="https://ssgouthamreddy.netlify.app/"
+            demo="https://goutham7675.github.io/personal-portfolio/"
           />
         </div>
         <br />
