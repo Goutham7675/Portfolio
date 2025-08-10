@@ -11,20 +11,20 @@ const AboutHeader = () => {
 
   return (
     <ScrollOpacity>
-      <div className="flex flex-col items-center justify-center h-[60vh]">
+      <div className="flex h-[60vh] flex-col items-center justify-center">
         <motion.h1
           className="header px-5 text-center"
           onMouseEnter={setMouseVariant.text}
           onMouseLeave={setMouseVariant.default}
         >
           <br /> <br />
-          I&apos;m S.S. Goutham Reddy, <br />a Software{' '}
-          <span className="text-gradient">Developer</span> <br /> who{' '}
+          I&apos;m S.S. Goutham Reddy, <br />a Software{" "}
+          <span className="text-gradient">Developer</span> <br /> who{" "}
           <Delayed waitBeforeShow={2000}>
             <Type />
           </Delayed>
         </motion.h1>
-        <div className="flex flex-col items-center justify-center mt-12">
+        <div className="mt-12 flex flex-col items-center justify-center">
           <a
             href="/pdf/Goutham Reddy Resume.pdf"
             download
