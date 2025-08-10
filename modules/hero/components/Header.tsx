@@ -11,13 +11,12 @@ const Header = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <motion.div
-      className={`flex w-full flex-col items-center justify-center px-2 sm:px-4`}
-    >
+    <motion.div className="flex w-full flex-col items-center justify-center px-2 sm:px-4">
       <motion.h1
-        className={`mx-auto max-w-6xl text-center text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl ${
+        className={`xs:text-2xl mx-auto w-full max-w-[98vw] break-words text-center text-[2rem] font-bold leading-tight sm:max-w-3xl sm:text-4xl md:max-w-5xl md:text-5xl lg:max-w-6xl lg:text-6xl xl:text-7xl ${
           theme === "dark" ? "text-gray-100" : "text-gray-900"
         }`}
+        style={{ wordBreak: "break-word", hyphens: "auto" }}
         onMouseEnter={setMouseVariant.text}
         onMouseLeave={setMouseVariant.default}
         initial="hidden"
