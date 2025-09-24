@@ -14,7 +14,7 @@ const ProjectsList = () => {
             title="GitHub User Search"
             description="Built a GitHub User Search web app enabling users to search and view GitHub profiles dynamically. Utilized debounced search functionality, reducing unnecessary API calls by ~60%, enhancing performance and efficiency."
             github="https://github.com/Goutham7675/github-user-search"
-            demo="nil"
+            demo="https://drive.google.com/file/d/19NuKb87yWT5TX2EXlNoidb7L7rNEHRlB/view"
           />
           <Project
             title="Internshala Automation"
