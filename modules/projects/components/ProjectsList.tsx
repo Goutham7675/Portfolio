@@ -20,7 +20,7 @@ const ProjectsList = () => {
             title="Internshala Automation"
             description="Engineered a scalable automation tool using Node.js to streamline interactions with the Internshala platform, reducing manual application workflows and improving operational efficiency by over 90%."
             github="https://github.com/Goutham7675/internshala-automation"
-            demo="nil"
+            demo="https://drive.google.com/file/d/1FyWmbYp_naqLTfwWCVNJ52dMkQ2fpaWk/view"
           />
           <Project
             title="Fake News Detection"
