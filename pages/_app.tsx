@@ -17,10 +17,10 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Goutham Reddy</title>
+        <title>S. S. Goutham Reddy Portfolio</title>
         <meta
           name="description"
-          content="Portfolio site of Software Developer Goutham Reddy."
+          content="Portfolio site of Software Developer S. S. Goutham Reddy."
         />
         <meta
           name="keywords"
