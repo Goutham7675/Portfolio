@@ -70,7 +70,7 @@ const Contact = () => {
           <div className="flex h-full w-full items-center justify-center gap-5 text-lg text-zinc-400 lg:text-xl">
             <p>© 2025 S.S. Goutham Reddy</p>
             <a
-              href="https://www.linkedin.com/in/sai-goutham-reddy-1a7809255/"
+              href="https://www.linkedin.com/in/ssgouthamreddy/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
