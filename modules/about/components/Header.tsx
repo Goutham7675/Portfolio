@@ -24,7 +24,7 @@ const AboutHeader = () => {
             <Type />
           </Delayed>
         </motion.h1>
-        <div className="mt-12 flex flex-col items-center justify-center">
+        {/* <div className="mt-12 flex flex-col items-center justify-center">
           <a
             href="/pdf/Goutham Reddy Resume.pdf"
             download
@@ -32,7 +32,7 @@ const AboutHeader = () => {
           >
             Download Resume
           </a>
-        </div>
+        </div> */}
       </div>
     </ScrollOpacity>
   );
