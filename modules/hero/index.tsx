@@ -81,7 +81,7 @@ const Hero = () => {
         </button>
         <a
           className="scale-btn"
-          href="https://drive.google.com/file/d/1jiYLlAAxQ0LVrsUfUg4EyJYmYVy0D1kI/view"
+          href="https://drive.google.com/file/d/1nWwBlmXvKc0ZeUtuJUJVpaBIB9puQo1n/view"
           target="_blank"
         >
           Resume
