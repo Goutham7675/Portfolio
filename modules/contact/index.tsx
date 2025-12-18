@@ -34,7 +34,7 @@ const Contact = () => {
             <a
               className="primary-gradient scale-btn hover:hover-gradient mt-4 rounded-2xl p-2 px-4 text-lg transition-all duration-300 lg:mt-6 lg:p-3 lg:px-6 lg:text-xl"
               href="mailto:ssgouthamreddy@gmail.com"
-              href="mailto:ssgouthamreddy@outlook.com"
+              
             >
               Contact me
             </a>
